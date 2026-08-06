@@ -1,0 +1,6 @@
+{
+  "name": "Ramad-e-Taiba Travel & Tours",
+  "description": "Ramad-e-Taiba, Karachi — Your trusted partner for Hajj, Umrah & worldwide travel. Flights, Hotels, and Visa Services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
