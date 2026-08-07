@@ -36,11 +36,11 @@ export const BLOG_POSTS: BlogPost[] = [
     author: {
       name: "Tariq Mehmood Siddiqui",
       role: "Senior Umrah Consultant & Director",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+      avatar: "https://images.unsplash.com/photo-1633546707050-88e2b545831c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dW1yb2h8ZW58MHx8MHx8fDA%3D"
     },
     publishedDate: "February 2026",
     readTime: "6 min read",
-    featuredImage: "https://images.unsplash.com/photo-1565552070098-0073a126829c?auto=format&fit=crop&q=80&w=1200",
+    featuredImage: "https://images.unsplash.com/photo-1633546707050-88e2b545831c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dW1yb2h8ZW58MHx8MHx8fDA%3D",
     summary: "Everything Karachi families need to know before booking Umrah in 2026: Nusuk app registration, Makkah Clock Tower vs Aziziyah, flight choices from Karachi Airport, and baggage rules.",
     tags: ["Umrah 2026", "Nusuk App", "Karachi Flight Deals", "Makkah Hotels", "Rawdah Reservation"],
     content: {

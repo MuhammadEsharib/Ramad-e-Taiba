@@ -3,14 +3,14 @@ import { Currency, Language } from '../types';
 import { translations } from '../data/translations';
 import { convertPKRToCurrency, ExchangeRates } from '../utils/currencyConverter';
 import { openWhatsAppInquiry } from '../utils/formatters';
-import { 
-  Search, 
-  Plane, 
-  Moon, 
-  FileCheck, 
-  Star, 
-  ArrowRight, 
-  MapPin, 
+import {
+  Search,
+  Plane,
+  Moon,
+  FileCheck,
+  Star,
+  ArrowRight,
+  MapPin,
   Sparkles
 } from 'lucide-react';
 
@@ -76,10 +76,10 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Hero Content Grid */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-          
+
           {/* Left Column: Brand Statement */}
           <div className="lg:col-span-7 flex flex-col pt-4">
-            
+
             {/* Badge */}
             <div className="flex items-center gap-3 mb-6">
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-[#D4AF37]/40 text-[#D4AF37] text-xs font-bold uppercase tracking-wider backdrop-blur-md">
@@ -91,7 +91,7 @@ export const Hero: React.FC<HeroProps> = ({
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold leading-[1.1] text-white mb-6 tracking-tight">
               {t.heroTitleLine1} <br />
-              <span className="text-[#1E5EFF] underline decoration-[#D4AF37] decoration-4 underline-offset-8">
+              <span className="text-yellow-400">
                 {t.heroTitleLine2}
               </span>
             </h1>
@@ -154,9 +154,9 @@ export const Hero: React.FC<HeroProps> = ({
           {/* Right Column: Search Widget Box */}
           <div className="lg:col-span-5 w-full">
             <div className="glass-card rounded-[24px] p-5 sm:p-6 text-gray-900 bg-white shadow-2xl border border-white/20 backdrop-blur-2xl">
-              
+
               {/* Widget Header Tabs */}
-              <div 
+              <div
                 className="flex border-b border-gray-200 mb-6 gap-1 sm:gap-2"
                 role="tablist"
                 aria-label="Package Search Tabs"
@@ -166,11 +166,10 @@ export const Hero: React.FC<HeroProps> = ({
                   role="tab"
                   aria-selected={activeTab === 'umrah'}
                   onClick={() => setActiveTab('umrah')}
-                  className={`flex-1 py-3 text-[11px] sm:text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 border-b-2 transition-all focus-visible:ring-2 focus-visible:ring-[#1E5EFF] focus-visible:outline-none min-h-[44px] ${
-                    activeTab === 'umrah'
-                      ? 'border-[#1E5EFF] text-[#1E5EFF]'
-                      : 'border-transparent text-gray-500 hover:text-gray-900'
-                  }`}
+                  className={`flex-1 py-3 text-[11px] sm:text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 border-b-2 transition-all focus-visible:ring-2 focus-visible:ring-[#1E5EFF] focus-visible:outline-none min-h-[44px] ${activeTab === 'umrah'
+                    ? 'border-[#1E5EFF] text-[#1E5EFF]'
+                    : 'border-transparent text-gray-500 hover:text-gray-900'
+                    }`}
                 >
                   <Moon className="w-3.5 h-3.5 text-[#D4AF37]" />
                   {t.searchTabUmrah}
@@ -181,11 +180,10 @@ export const Hero: React.FC<HeroProps> = ({
                   role="tab"
                   aria-selected={activeTab === 'flights'}
                   onClick={() => setActiveTab('flights')}
-                  className={`flex-1 py-3 text-[11px] sm:text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 border-b-2 transition-all focus-visible:ring-2 focus-visible:ring-[#1E5EFF] focus-visible:outline-none min-h-[44px] ${
-                    activeTab === 'flights'
-                      ? 'border-[#1E5EFF] text-[#1E5EFF]'
-                      : 'border-transparent text-gray-500 hover:text-gray-900'
-                  }`}
+                  className={`flex-1 py-3 text-[11px] sm:text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 border-b-2 transition-all focus-visible:ring-2 focus-visible:ring-[#1E5EFF] focus-visible:outline-none min-h-[44px] ${activeTab === 'flights'
+                    ? 'border-[#1E5EFF] text-[#1E5EFF]'
+                    : 'border-transparent text-gray-500 hover:text-gray-900'
+                    }`}
                 >
                   <Plane className="w-3.5 h-3.5 text-[#1E5EFF]" />
                   {t.searchTabFlights}
@@ -196,11 +194,10 @@ export const Hero: React.FC<HeroProps> = ({
                   role="tab"
                   aria-selected={activeTab === 'visa'}
                   onClick={() => setActiveTab('visa')}
-                  className={`flex-1 py-3 text-[11px] sm:text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 border-b-2 transition-all focus-visible:ring-2 focus-visible:ring-[#1E5EFF] focus-visible:outline-none min-h-[44px] ${
-                    activeTab === 'visa'
-                      ? 'border-[#1E5EFF] text-[#1E5EFF]'
-                      : 'border-transparent text-gray-500 hover:text-gray-900'
-                  }`}
+                  className={`flex-1 py-3 text-[11px] sm:text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 border-b-2 transition-all focus-visible:ring-2 focus-visible:ring-[#1E5EFF] focus-visible:outline-none min-h-[44px] ${activeTab === 'visa'
+                    ? 'border-[#1E5EFF] text-[#1E5EFF]'
+                    : 'border-transparent text-gray-500 hover:text-gray-900'
+                    }`}
                 >
                   <FileCheck className="w-3.5 h-3.5 text-[#D4AF37]" />
                   {t.searchTabVisa}

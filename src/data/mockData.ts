@@ -68,7 +68,7 @@ export const UMRAH_PACKAGES: UmrahPackage[] = [
     durationDays: 15,
     pricePKR: 218000,
     popular: true,
-    featuredImage: "https://images.unsplash.com/photo-1565552070098-0073a126829c?auto=format&fit=crop&q=80&w=1000",
+    featuredImage: "https://images.unsplash.com/photo-1677835214504-9648944c3e50?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dW1yb2h8ZW58MHx8MHx8fDA%3D",
     makkahHotel: {
       name: "Emaar Grand Makkah (or similar)",
       stars: 3,
