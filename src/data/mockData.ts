@@ -127,7 +127,7 @@ export const UMRAH_PACKAGES: UmrahPackage[] = [
     durationDays: 14,
     pricePKR: 385000,
     popular: true,
-    featuredImage: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&q=80&w=1000",
+    featuredImage: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/878474386.jpg?k=2f7cd394112dd22a2b730d0542378691226f5e958136d2fa16ad483c4b119830&o=",
     makkahHotel: {
       name: "Swissôtel Makkah / Pullman Zamzam Clock Tower",
       stars: 5,
@@ -187,7 +187,7 @@ export const UMRAH_PACKAGES: UmrahPackage[] = [
     type: "executive",
     durationDays: 15,
     pricePKR: 285000,
-    featuredImage: "https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&q=80&w=1000",
+    featuredImage: "https://images.unsplash.com/photo-1554976757-606d486f5d92?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fG1hZGluYWh8ZW58MHx8MHx8fDA%3D",
     makkahHotel: {
       name: "Anjum Makkah / Al Shohada Hotel",
       stars: 4,
@@ -514,7 +514,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
     pricePKR: 95000,
     badge: "Domestic Luxury",
     badgeUr: "پاکستانی سیاحت",
-    image: "https://images.unsplash.com/photo-1627894483216-2138af692e32?auto=format&fit=crop&q=80&w=1000",
+    image: "https://www.responsibletravel.com/imagesclient/L_260931.jpg",
     highlights: [
       "Direct PIA Flight from Karachi to Skardu Airport",
       "Shangrila Resort Lake & Upper Kachura Lake",
@@ -830,14 +830,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g1",
     title: "Holy Kaaba View from Makkah Hotel",
     category: "umrah",
-    imageUrl: "https://images.unsplash.com/photo-1565552070098-0073a126829c?auto=format&fit=crop&q=80&w=1000",
+    imageUrl: "https://images.unsplash.com/photo-1713239060784-e6ed820a0715?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFra2FofGVufDB8fDB8fHww",
     location: "Makkah Mukarramah"
   },
   {
     id: "g2",
     title: "Masjid An-Nabawi Courtyard Umbrellas",
     category: "umrah",
-    imageUrl: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&q=80&w=1000",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy7aU-iGdaKxNX0ivfxE4LBA0zeWuYfLoW_6r9p8t-kw&s=10",
     location: "Madinah Al-Munawwarah"
   },
   {
@@ -858,14 +858,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g5",
     title: "Kachura Shangrila Lake Resort",
     category: "tours",
-    imageUrl: "https://images.unsplash.com/photo-1627894483216-2138af692e32?auto=format&fit=crop&q=80&w=1000",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-cRBqwyjUlFqwBhTKeTL1E-7t_WYJu4dCgZgk5PZEorRGrKY5CZyX5uLM&s=10",
     location: "Skardu, Pakistan"
   },
   {
     id: "g6",
     title: "Ramad-e-Taiba Pilgrims Group in Madinah",
     category: "clients",
-    imageUrl: "https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&q=80&w=1000",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyPwcsYNEqzwfkoDNUoNybO0ur3ZPbvc0ZcvKfhuhvtp1WSzrf_LNY8ilx&s=10",
     location: "Madinah"
   }
 ];
